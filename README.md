@@ -29,6 +29,19 @@ cd Ip-Tracking-V2
 ```
 pip install requests
 ```
+a. Windows
+```
+pip install requests phonenumbers pywifi
+```
+b. Linux (Ubuntu / Kali Linux)
+```
+sudo pip3 install requests phonenumbers pywifi
+```
+c. Termux
+```
+pkg install python
+pip install requests phonenumbers pywifi
+```
 ## Jalankan
 ```
 python main.py
